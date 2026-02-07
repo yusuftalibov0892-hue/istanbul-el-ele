@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { UserRole, SolidarityMessage, ViewState } from './types';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TripleEntry from './components/TripleEntry';
-import MessageForm from './components/MessageForm';
-import MessageFeed from './components/MessageFeed';
-import WhyUs from './components/WhyUs';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import TripleEntry from './components/TripleEntry.tsx';
+import MessageForm from './components/MessageForm.tsx';
+import MessageFeed from './components/MessageFeed.tsx';
+import WhyUs from './components/WhyUs.tsx';
 import { GoogleGenAI } from "@google/genai";
 
 const App: React.FC = () => {
